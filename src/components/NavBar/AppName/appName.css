@@ -1,0 +1,23 @@
+.appName-container {
+    height: 82px;
+	width: 127px;
+	left: 41px;
+	top:-1px;
+	position: absolute;
+	border-right: 1px solid #E2E2E2;
+}
+
+.appName {
+	position: absolute;
+    height: 22px;
+    left: 0%;
+    right: 31.5%;
+    top: calc(50% - 22px/2 + 3px);
+
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    color: #1A1919;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

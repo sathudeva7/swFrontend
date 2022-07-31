@@ -1,0 +1,19 @@
+.search-container {
+	width: 177px;
+	height: 20px;
+	left: 1175px;
+	top: 113px;
+	position: absolute;
+}
+
+.icon-search {
+  width: 15.71px;
+  height: 15.71px;
+}
+
+.search-text {
+   position: absolute;
+   left: 27px;
+   top: 1px;
+   border: none;
+}

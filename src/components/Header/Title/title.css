@@ -1,0 +1,28 @@
+.title-container {
+	width: 170px;
+	height: 96px;
+	top: 80px;
+	left: 78px;
+}
+
+.icon-company{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	top: 31px;
+	left: 42px;
+	background-color: #A4A6A8;
+}
+
+.title-span{
+	position: absolute;
+	height: 36px;
+	width: 87px;
+	left: 81px;
+	top: 36px;
+	font-size: 30px;
+	line-height: 36px;
+	/* identical to box height, or 120% */
+
+	color: #1A1919;
+}

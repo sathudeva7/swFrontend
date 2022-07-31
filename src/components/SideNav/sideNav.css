@@ -1,0 +1,38 @@
+.sidenav {
+  width: 80px;
+  position: absolute;
+  height:1000px;
+  left: 0%;
+  right: 94.73%;
+  top: 0%;
+  bottom: 0%;
+  background: #042235;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5), inset -4px 0px 4px rgba(2, 15, 24, 0.569466);
+}
+
+.sidenav a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: #2995DA;
+}
+
+.active {
+  background-color: #2995DA;
+}
+
+.img {
+  padding:20px
+}
+
+.help {
+  width: 26px;
+  height: 26px;
+}
+
+
+

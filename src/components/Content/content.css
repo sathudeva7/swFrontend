@@ -1,0 +1,59 @@
+.content-container {
+	width: 1008px;
+	top: 268px;
+	left: 122px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+	position: relative;
+	background: #FFFFFF;
+}
+
+.content-title-container {
+	width: 1008px;
+	height: 41.5px;
+	top: 28px;
+    position: absolute;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.content-title-text {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	position: absolute;
+	left: 30px;
+}
+
+.content-numbers-text {
+	font-size: 14px;
+	line-height: 17px;
+	color: #7F7F7F;
+	left: 801px;
+	top: 3px;
+	position: absolute;
+}
+
+
+/* Float four columns side by side */
+.column {
+	float: left;
+    margin-bottom: 16px;
+	margin-right:13px ;
+
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.cards-container {
+	position: absolute;
+	left: 27px;
+	top: 100px;
+}
+

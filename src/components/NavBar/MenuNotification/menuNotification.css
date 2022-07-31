@@ -1,0 +1,36 @@
+.notification-container {
+    height: 31px;
+	width: 33px;
+	left: 1213px;
+	top: 18px;
+	position: absolute;
+}
+
+.icon-badge {
+	position: absolute;
+	left: 41.94%;
+	right: 0%;
+	top: 0.35%;
+	bottom: 45.1%;
+	
+}
+
+.icon-mail {
+	position: absolute;
+	left: 0%;
+	right: 29.03%;
+	top: 33.33%;
+	bottom: 0%;
+	
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.notification_count {
+	color: white;
+	position: relative;
+	left: 22px;
+	top: 2px;
+	font-size: 11px;
+	line-height: 13px;
+}

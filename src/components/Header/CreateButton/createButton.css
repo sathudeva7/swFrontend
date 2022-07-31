@@ -1,0 +1,42 @@
+.button-container {
+	width: 189px;
+	height: 36px;
+	top: 30px;
+	left: 1211px;
+	background: #40D2BF;
+	position: absolute;
+    border-radius: 4px;
+}
+
+.icon-container {
+
+	left: 85.05%;
+	right: 12.58%;
+	top: 9.17%;
+	bottom: 87.83%;
+	
+	background: #40D2BF;
+	background-blend-mode: multiply;
+	mix-blend-mode: normal;
+	border-radius: 4px 0px 0px 4px;
+	
+}
+
+.icon-shape {
+	width: 16px;
+	height: 16px;
+	top: 10px;
+	position: absolute;
+	left: 11px;
+}
+
+.button-text {
+	width: 127px;
+	height: 16px;
+	top: 11px;
+	position: absolute;
+	left: 48px;
+	font-size: 13px;
+/* identical to box height, or 114% */
+    color: #FFFFFF;
+}

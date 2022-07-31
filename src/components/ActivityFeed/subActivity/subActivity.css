@@ -1,0 +1,43 @@
+.sub-activity-container {
+	width: 249px;
+	height: 59px;
+	left: 29px;
+	top: 25px;
+	margin-bottom: 15px;
+}
+
+.avatar-logo {
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	position: absolute;
+	left: 29px;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.sub-activity-text {
+	width: 204px;
+	height: 34px;
+    font-size: 14px;
+	line-height: 17px;
+	color: #444444;
+	position: absolute;
+	left: 74px;
+}
+
+.sub-activity-time {
+	width: 69px;
+	height: 16px;
+	font-size: 13px;
+	line-height: 16px;
+	/* identical to box height, or 123% */
+	color: #565656;
+    
+	mix-blend-mode: normal;
+	opacity: 0.5;
+	position: relative;
+}
+

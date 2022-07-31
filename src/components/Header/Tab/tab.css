@@ -1,0 +1,22 @@
+.tab-container {
+	width: 292px;
+	height: 32px;
+	position: absolute;
+	top: 114px;
+	left: 44px;
+}
+
+.active-tab {
+  color: #0083E3;
+  border-bottom: 3px solid #0083E3;
+}
+
+.subTab-container {
+	height: 22px;
+	padding-right: 40px;
+	align-items: center;
+}
+
+.subTab-text {
+    font-size: 18px;
+}
