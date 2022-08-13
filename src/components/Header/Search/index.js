@@ -3,14 +3,14 @@ import iconSearch from './icon-search.png';
 import { UserContext } from '../../../context/UserContext';
 import './search.css'
 
-export const Search = () => {
+export const Search = ({text}) => {
 	const {searchValue, setSearchValue} = useContext(UserContext);
 
 	
   return (
 	  <div className='search-container'>
 		  <img src={iconSearch} className='icon-search'></img>
-		  <input className='search-text' placeholder='Search team name ...' value={searchValue?searchValue:''} onChange={(e) => setSearchValue(e.target.value)}></input>
+		  <input className='search-text' placeholder={text} value={searchValue?searchValue:''} onChange={(e) => setSearchValue(e.target.value)}></input>
 	  </div>
   )
 }

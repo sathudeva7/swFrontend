@@ -15,9 +15,15 @@ export const Header = () => {
 		  
 		  {localStorage.getItem('headerTitle') == 'Teams' ? 
 		  <>
-		  <CreateButton />
+		  <CreateButton text="Create New Team" />
 		  <Tab />
-		  <Search />
+		  <Search text="Search team name..." />
+		  </>:''}
+		  { localStorage.getItem('headerTitle') == 'Campaign'?
+		  <>
+		  <CreateButton text="Create New Campaign" />
+		  <Tab />
+		  <Search text="Search campaign name..." />
 		  </>:''}
 	  </div>
   )

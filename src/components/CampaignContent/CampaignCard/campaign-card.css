@@ -1,0 +1,127 @@
+.campaign-card-container {
+	width: 416px;
+	height: 500px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.campaign-card-image-container {
+	position: absolute;
+	width: 416px;
+	height: 254px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.campaign-card-description-container {
+	position: absolute;
+	width: 416px;
+	height: 295px;
+	top: 254px;
+}
+
+.campaign-card-description-text {
+	font-size: 18px;
+	line-height: 24px;
+	color: #767676;
+}
+
+.campaign-card-type {
+	position: relative;
+	width: 94px;
+	height: 38px;
+	left: 15px;
+	top: 15px;
+	
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.25);
+	border-radius: 10px;
+}
+
+.campaign-card-type-text {
+	font-size: 12px;
+	/* identical to box height, or 18px */
+	position: relative;
+	text-align: center;
+	top:10px;
+	color: #FFFFFF;
+}
+
+.campaign-card-title-container {
+	width: 406px;
+	border-bottom: 1px solid #979797;
+}
+
+.campaign-card-title-text {
+	font-size: 20px;
+	line-height: 130%;
+	color: #252525;
+}
+
+.campaign-card-date-text {
+	font-size: 12px;
+	/* identical to box height, or 16px */
+	color: #979797;
+}
+
+.campaign-card-author-text {
+	font-size: 16px;
+	line-height: 130%;
+	/* or 18px */
+	color: #FFAE45;
+}
+
+.campaign-card-author-from-text {
+	font-size: 14px;
+	line-height: 130%;
+	/* or 18px */
+	color: #979797;
+}
+
+.campaign-card-attendee-number-container {
+	position: absolute;
+	width: 161px;
+	height: 38px;
+	left: 10px;
+	border: 1px solid rgba(29, 122, 255, 0.5);
+	filter: drop-shadow(0px 4px 10px rgba(29, 122, 255, 0.5));
+	border-radius: 10px;	
+}
+
+.campaign-card-attendee-avatar {
+	position: absolute;
+	left: 16.67%;
+	top: 8px;
+}
+
+.campaign-card-attendee-number-text {
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 18px */
+	text-align: center;
+	position: relative;
+	/* #505050 */
+	left: 4px;
+	color: #505050;
+	
+}
+
+.campaign-card-learn-more-text {
+	font-size: 16px;
+	line-height: 150%;
+	/* identical to box height, or 24px */
+	
+	text-align: center;
+	position: relative;
+	left: 300px;
+	bottom: -10px;
+	color: #1D66FF;
+}
+.campaign-card-title-info-container {
+	width: 146px;
+	height: 49px;
+}
+
+.campaign-card-author-info-container {
+	position: absolute;
+	left: 300px;
+}
